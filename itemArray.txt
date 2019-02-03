@@ -1,0 +1,99 @@
+dangerTable = ["onePhysicalAttack", "oneFireAttack", "oneColdAttack",
+               "oneLightningAttack", "precentLifeLeech",
+               "precentManaLeech", "damage", "strDexInt",
+               "precentDefense", "elementalRes"]
+
+PrefixTable = ["life", "mana", "energy", "precentDefense",
+               "spellDamage","elementalDamage", "onePhysicalAttack",
+               "oneFireAttack", "oneColdAttack", "oneLightningAttack",
+               "precentLifeLeech", "precentManaLeech"]
+
+lifeTable = ["+{} to maximum Life",
+             3, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+manaTable = ["+{} to maximum Mana",
+             15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 69, 74, 79]
+energyTable = ["+{} to maximum Energy Shield",
+               1, 4, 9, 16, 20, 23, 27, 32, 38, 44, 48, 52]
+
+precentDefenseName = ["+{} to Armour", "+{} Evasion Rating",
+                      "+{} Energy Shield"]
+precentDefenseTable = [2, 5, 8, 11, 14, 17, 20, 23]
+
+spellDamageTable = ["{}% increased Spell Damage", 3, 8, 13, 18, 23, 27]
+elementalDamageTable = ["{}% increased Elemental Damage with Attack Skills",
+                        5, 11, 21, 31, 37, 43, 51]
+
+attackNamesTable = ["{} to {} Physical Damage to Attacks",
+                    "{} to {} Fire Damage to Attacks",
+                    "{} to {} Cold Damage to Attacks",
+                    "{} to {} Lightning Damage to Attacks"]
+onePhysicalAttackTable = [1, 2, 2, 4, 3, 5, 4, 7, 5,
+                       8, 6, 10, 7, 11, 9, 13, 11, 16]
+twoPhysicalAttackTable = [2, 3, 4, 6, 6, 8, 9, 11, 11, 13, 13,
+                          16, 15, 19, 19, 23, 22, 27]
+oneFireAttackTable = [1, 2, 3, 6, 5, 8, 7, 11, 9,
+                   13, 11, 16, 13, 19, 16, 23, 19, 26]
+twoFireAttackTable = [2, 3, 7, 9, 11, 14, 15, 19, 19, 23,
+                      23, 28, 27, 32, 32, 39, 39, 46]
+oneColdAttackTable = [1, 2, 3, 5, 5, 8, 6, 9, 8, 12,
+                   10, 14, 12, 17, 14, 20, 18, 23]
+twoColdAttackTable = [2, 3, 7, 9, 10, 13, 13, 17, 16, 20,
+                      20, 25, 24, 29, 29, 35, 34, 41]
+oneLightningAttackTable = [1, 2, 1, 2, 1, 3, 1, 3,
+                        1, 4, 1, 5, 2, 6, 3, 7, 3, 8]
+twoLightningAttackTable = [5, 6, 14, 16, 22, 24, 27, 28, 33,
+                           35, 40, 44, 47, 51, 57, 62, 68, 73]
+
+precentLifeLeechTable = ["{}% of Physical Attack Damage Leeched as Life",
+						 20, 41, 60, 81, 100, 121]
+precentManaLeechTable = ["{}% of Physical Attack Damage Leeched as Mana",
+						 20, 41, 60, 81]
+
+
+SuffixTable = ["strDexInt", "elementalRes", "chaosRes",
+               "damage", "allAtributes", "itemRarity", "castSpeed",
+               "accuracy", "lifeRegen",
+               "manaRegen", "globalCriticalChance",
+               "allElementalRes", "globalCriticalMulti",
+               "lifeGainedHit", "lifeGainedKill", "manaGainedKill"]
+
+strDexIntName = ["+{} to Strength", "+{} to Dexterity",
+                 "+{} to Intelligence"]
+strDexIntTable = [8, 13, 18, 23, 28, 33, 38, 43, 51, 56]
+
+elementalResName = ["{}% increased Fire Resistance",
+                    "{}% increased Cold Resistance",
+                    "{}% increased Lightning Resistance"]
+elementalResTable = [6, 12, 19, 24, 30, 36, 42, 46, 49]
+allElementalResTable = ["{}% to all Elemental Resistances",
+                        3, 6, 9, 12, 15, 17, 19]
+chaosResTable = ["{}% to Chaos Resistance", 5, 11, 16, 21, 26, 31, 36]
+
+damageName = ["{}% increased Fire Damage",
+              "{}% increased Cold Damage",
+              "{}% increased Lighting Damage"]
+damageTable = [3, 8, 13, 18, 23, 27]
+
+allAtributesTable = ["{} to All Atributes",
+                     1, 5, 9, 13, 17, 21, 25, 29, 33, 36]
+itemRarityTable = ["{}% Increased Item Rarity", 6, 11, 15, 21, 27]
+
+castSpeedTable = ["{}% Increased Cast Speed", 5, 8, 11, 14]
+accuracyTable = ["{} to Accuracy Rating",
+                 5, 16, 61, 101, 131, 166, 201, 251, 321, 401]
+
+lifeRegenTable = ["{} Life Regenerated per second",
+                  1, 2, 4, 7, 10, 13, 16, 21]
+manaRegenTable = ["{}% increased Mana Regeneration Rate",
+                  10, 20, 30, 40, 50, 60, 70]
+
+globalCriticalChanceTable = ["{}% increased Global Critical Strike Chance",
+                             10, 15, 20, 25, 30, 35, 39]
+globalCriticalMultiTable = ["{}% to Global Critical Strike Multiplier",
+                            8, 13, 20, 25, 30, 35, 39]
+
+lifeGainedHitTable = ["{} Life gained for each Enemy hit by your Attacks",
+                      2, 3, 4, 5]
+lifeGainedKillTable = ["{} Life gained on Kill", 3, 7, 11, 15]
+manaGainedKillTable = ["{} Mana gained on Kill", 1, 2, 4, 7]
+
